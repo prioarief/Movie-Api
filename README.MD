@@ -23,12 +23,11 @@ TASK 1
 
 TASK 2
 * Create .env file (for example you can open .env_example file)
-* Create database [value of DB_NAME at .env]_development for development environment
-* Create database [value of DB_NAME at .env] for production environment
+* Create database [value of DB_NAME at .env]
 ```sh
 cd 2
 npm i
-npx sequelize-cli db:migrate --development
+npx sequelize-cli db:migrate
 npm run test
 npm run dev
 ```
