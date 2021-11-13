@@ -42,7 +42,7 @@ npm node index.js
 
 TASK 4
 ```sh
-cd 3
+cd 4
 npm node index.js
 ```
 
