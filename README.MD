@@ -31,8 +31,8 @@ npx sequelize-cli db:migrate
 npm run test
 npm run dev
 ```
-* Search : localhost:port/search?s=keyword
-* Detail : localhost:port/detail/movie_id
+* Search (GET) : localhost:port/search?s=keyword
+* Detail (GET) : localhost:port/detail/movie_id
 
 TASK 3
 ```sh
